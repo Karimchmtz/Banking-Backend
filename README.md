@@ -7,7 +7,7 @@ The API is divided into 3 distinct layers:
 
 
 
-# Documentation 📖
+# Documentation
 
 `GET <server.url>/api/clients/all `
 - Get all user information
