@@ -27,11 +27,11 @@ The API is divided into 3 distinct layers:
 - Delete a registered user from the database
 - Returns an error if the id is invalid 🔴
 
-`PUT <server.url>/api/clients/withdraw/id/amount`
+`PUT <server.url>/api/clients/withdraw/{id}/(amount}`
 - Withdraws the amount from the user and updates the user balance in the database
 - Returns an error if the id is invalid, the amount is invalid, or the balance is insufficient (with the appropriate error message) 🔴
 
 
-`PUT <server.url>/api/clients/deposit/id/amount`
+`PUT <server.url>/api/clients/deposit/{id}/{amount}`
 - Deposits the amount from the user and updates the user balance in the database
 - Returns an error if the id is invalid, the amount is invalid (with the appropriate error message) 🔴
